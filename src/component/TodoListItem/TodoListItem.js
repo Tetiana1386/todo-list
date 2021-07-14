@@ -1,5 +1,5 @@
 import React from 'react';
-import './TodoListItem.module.css';
+import './TodoListItem.css';
 
 const TodoListItem = ({
   important,
@@ -20,6 +20,12 @@ const TodoListItem = ({
 
   return (
     <span className={classNames}>
+      <input
+        type="checkbox"
+        className="todoList-checkbox"
+        checked={done}
+        onChange={onToggleDone}
+      />
       <span className="todo-list-item-label" onClick={onToggleDone}>
         {label}
       </span>

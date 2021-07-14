@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Search_panel.module.css';
+import './Search_panel.css';
 
 class SearchPanel extends Component {
   state = {

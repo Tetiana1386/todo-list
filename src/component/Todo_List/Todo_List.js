@@ -2,7 +2,7 @@ import React from 'react';
 
 import TodoListItem from '../TodoListItem/TodoListItem';
 
-import './Todo_List.module.css';
+import './Todo_List.css';
 
 const TodoList = ({ items, onToggleImportant, onToggleDone, onDelete }) => {
   const elements = items.map(item => {

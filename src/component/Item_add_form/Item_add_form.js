@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Item_add_form.module.css';
+import './Item_add_form.css';
 
 class ItemAddForm extends Component {
   state = {
